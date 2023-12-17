@@ -1,11 +1,9 @@
 # UAS Pemrograman Web
 
-<ul>
-  Nama     : Dimas Saputra
-  NIM      : 121140059
-  Kelas    : RA
-  Link web : http://dimassaputra059.whf.bz/index.php
-</ul>
+Nama     : Dimas Saputra <br>
+NIM      : 121140059 <br>
+Kelas    : RA <br>
+Link web : http://dimassaputra059.whf.bz/index.php <br>
 
 ## Web Inventory Barang
 
