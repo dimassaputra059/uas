@@ -1,0 +1,139 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+body {
+    background-color: rgb(200, 227, 223);
+    box-sizing: border-box;
+}
+
+nav {
+    padding: 20px 0;
+    display: flex;
+    justify-content: space-between;
+    font-family: monospace;
+    font-size: 20px;
+}
+
+.nav_logo {
+    display: flex;
+    align-items: center;
+    padding-left: 40px;
+}
+
+.nav_logo div {
+    color: #FFA732;
+}
+
+#logo {
+    height: 80px;
+    width: 80px;
+}
+
+.nav_link {
+    display: flex;
+    align-items: center;
+    list-style: none;
+    justify-content: space-evenly;
+    width: 60%;
+}
+
+nav ul li a {
+    text-decoration: none;
+    color: black;
+}
+
+.menu_akun a {
+    display: flex;
+    margin: 10px 0;
+}
+
+.input_barang {
+    max-width: 600px;
+    margin: 0 auto;
+    background-color: #f2f2f2;
+    padding: 20px;
+    border: 1px solid #ddd;
+    border-radius: 8px;
+    box-shadow: 0 0 10px rgba(0, 0, 0, 0.1);
+    font-family: tahoma;
+}
+
+.input_barang h2 {
+    text-align: center;
+    margin-bottom: 20px;
+}
+
+.row {
+    display: flex;
+    justify-content: space-around;
+    margin-bottom: 15px;
+}
+
+.col1 {
+    flex: 1;
+    text-align: left;
+}
+
+.col2 {
+    flex: 2;
+}
+
+label {
+    display: block;
+    margin-bottom: 5px;
+}
+
+.input_harga {
+    display: flex;
+    align-items: center;
+}
+
+.rupiah {
+    padding: 10px;
+    border: none;
+    border-radius: 5px 0 0 5px;
+}
+
+input[type="text"],
+input[type="number"] {
+    width: 100%;
+    padding: 8px;
+    box-sizing: border-box;
+    margin-bottom: 10px;
+}
+
+input[type="radio"] {
+    margin-right: 5px;
+}
+
+input[type="submit"] {
+    background-color: #4caf50;
+    color: #fff;
+    padding: 10px 20px;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-weight: 600;
+}
+
+input[type="submit"]:hover {
+    background-color: #45a049;
+}
+
+footer {
+    position: fixed;
+    bottom: 0;
+}
+
+.copyright {
+    background-color: #EF4040;
+	width: 100%;
+    text-align: center;
+    padding: 15px 0;
+}
+
+.copyright div {
+    background-color: #EF4040;
+}
